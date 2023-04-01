@@ -1,0 +1,58 @@
+.cardTabl table{
+    width: 100%;
+}
+
+.imgColumn td, 
+.cardLeft{
+    background-image: url(https://api.lorem.space/image/pizza?hash=6t8c52w3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    display: none;
+}
+
+.cardLeft{
+    display: block;
+}
+
+.cardFloat{
+    overflow: hidden;
+}
+
+.cardFloat .imgLeft{
+    background-image: url(https://api.lorem.space/image/pizza?hash=6t8c52w3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 50%;
+    float: left;
+}
+
+.cardFloat .infoRight{
+    /* width: 50%; */
+    text-align: center;
+}
+
+.cardImgMe{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+@media (max-width: 500px) {
+    .cardLeft{
+        display: none;
+    }
+
+    .imgColumn td{
+        display: block;
+    }
+    
+    .cardFloat .imgLeft{
+        width: 100%;
+        text-align: center;
+    }
+}

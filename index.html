@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container mt-3 pt-3">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Front31</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ссылка</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Отключенная</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Заголовок модального окна</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              <p>Здесь идет основной текст модального окна</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+              <button type="button" class="btn btn-primary">Сохранить изменения</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://api.lorem.space/image/game?w=1200&h=440&hash=xuhz7rp8" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="https://api.lorem.space/image/album?w=1200&h=440&hash=r3j7mw15" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="https://api.lorem.space/image/shoes?w=1200&h=440&hash=rs4sij6u" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+
+        <h1 class="mt-5 pt-5">Привет мир!</h1>
+        <div class="row">
+            <p class="col-md-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore non unde laborum, soluta provident iusto cupiditate sequi culpa, distinctio rerum porro beatae nostrum officia deleniti cum enim praesentium eligendi nulla quae id facilis repudiandae esse accusamus! Ad quibusdam perspiciatis soluta aspernatur veritatis, atque autem quo, animi ratione, aperiam vero!</p>
+            <p class="col-md-4">Porro iure dolor praesentium pariatur delectus sint, itaque temporibus quia recusandae molestias saepe voluptas deleniti exercitationem cum, unde facere velit cumque? Veniam voluptas sint ipsum modi quaerat non dolorem corporis labore, quo odio deserunt, inventore provident esse, nisi laudantium pariatur expedita aspernatur. Dicta debitis numquam dolorum tempora deleniti magni aperiam.</p>
+        </div>
+        <div class="row">
+            <p class="col-md-4">A exercitationem dignissimos consequuntur alias odit dolorem saepe itaque, cum temporibus nulla inventore dolorum tempore nostrum totam consequatur qui magni corrupti laboriosam veniam blanditiis reiciendis possimus architecto earum perspiciatis. Cum laudantium, eaque cupiditate voluptas magni ipsum error perferendis quos neque. Sunt, eveniet nulla aperiam distinctio aliquam facilis atque a sapiente?</p>
+            <p class="col-md-4">Labore facilis officia, nihil rerum temporibus repudiandae perspiciatis delectus sunt earum, esse itaque veritatis quod? Ut praesentium, quas, reiciendis libero ducimus itaque quasi voluptatibus consectetur, eveniet dolorum harum eius deleniti ab labore inventore! Nihil voluptates alias ab, et quibusdam dolor magni assumenda qui numquam sed, totam ea provident itaque dicta.</p>
+        </div>
+
+        <div class="row d-flex justify-content-between">
+          <div class="card col-lg-3 col-md-4 p-0 m-3">
+            <img src="https://api.lorem.space/image/album?hash=ipfkunem" class="card-img-top cardImgMe" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Заголовок карточки</h5>
+              <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+              <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+            </div>
+          </div>
+
+        <div class="card col-lg-3 col-md-4 p-0 m-3">
+          <img src="https://api.lorem.space/image/book?hash=vejcahhm" class="card-img-top cardImgMe" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Заголовок карточки</h5>
+            <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+            <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+          </div>
+        </div>
+
+          <div class="card col-lg-3 col-md-4 p-0 m-3">
+            <img src="https://api.lorem.space/image/shoes?hash=ohnripb1" class="card-img-top cardImgMe" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Заголовок карточки</h5>
+              <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+              <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+            </div>
+          </div>
+
+            <div class="card col-lg-3 col-md-4 p-0 m-3">
+              <img src="https://api.lorem.space/image/watch?hash=q46w8wfg" class="card-img-top cardImgMe" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Заголовок карточки</h5>
+                <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+              </div>
+            </div>
+
+              <div class="card col-lg-3 col-md-4 p-0 m-3">
+                <img src="https://api.lorem.space/image/furniture?hash=ov75dmg0" class="card-img-top cardImgMe" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Заголовок карточки</h5>
+                  <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                  <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                </div>
+              </div>
+            </div>
+
+        <p>In temporibus, praesentium libero cumque, sunt veniam dolor provident ut dolores est itaque atque eos aperiam amet deserunt numquam aliquid porro autem similique repellendus eum molestiae corrupti dignissimos? Cupiditate saepe incidunt magni eum perferendis assumenda nulla cum alias, ut, recusandae quas nihil ab ullam magnam a dolor! Rem, dolorum alias?</p>
+        <p>At error omnis est nihil dolorem culpa quam quis, in illum harum beatae praesentium. Laboriosam animi provident perferendis asperiores est voluptates incidunt quam quasi dolor? Eaque, corporis praesentium suscipit natus laborum facilis expedita nostrum enim, at rem non aliquam numquam laudantium. Veniam odio ea esse tempora neque earum nemo praesentium?</p>
+        <p>Vitae ea neque architecto, illo quod quis vel quos fugit ex odit odio, consequuntur ad voluptatibus saepe quaerat exercitationem earum? Est dolorem debitis similique vitae soluta earum distinctio ex repellat magni hic, ab incidunt iure recusandae nihil pariatur laborum, vero esse dolore illo mollitia dolor ea eius. Eligendi, quasi illum.</p>
+        <p>Obcaecati optio molestiae voluptatum distinctio et totam nobis! Provident voluptatibus vel praesentium perspiciatis repudiandae ducimus incidunt excepturi quam similique iusto animi iste, velit laudantium delectus numquam architecto corporis magnam temporibus a nemo, mollitia tempora aperiam! Distinctio unde, perferendis aliquam aliquid qui voluptatum, magni rem, dolorem saepe voluptatibus voluptates ipsa odio!</p>
+        <p>Molestias exercitationem voluptatem rem, reprehenderit debitis facere. Excepturi, quaerat et ipsam amet dolor maxime soluta natus placeat rerum quis iusto reprehenderit aliquam a. Non laborum similique vero, aspernatur voluptates voluptas nihil voluptatum rem voluptatibus. Autem, voluptate explicabo? Voluptate possimus dolores, voluptas laudantium accusamus vitae tempora explicabo, doloremque maxime, laborum maiores?</p>
+        <p>Reiciendis voluptas veritatis eligendi fuga rerum, nulla quod dolor sunt tenetur asperiores hic aut non molestiae natus voluptatem vero modi ducimus laudantium. Voluptatem omnis quae consectetur sequi necessitatibus nihil aperiam nisi quaerat qui! Ex quidem earum sed, ipsum non iste maxime accusamus rem praesentium illum quod voluptatum aut reiciendis porro?</p>
+        <section class="cardTabl m-5 bg-dark-subtle">
+          <table>
+            <tr class="imgColumn">
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <td class="cardLeft col-6">
+
+              </td>
+              <td class="cardRight col-6">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam optio vero minima, ullam expedita cum iure? Tempora ipsam, rem facere iste ea aut eos nemo.
+                  <p class="price">
+                    20.55$
+                  </p>
+                  <a href="#" class="btn btn-dark">Подробнее</a>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </section>
+        <p>Possimus, voluptatibus ea ut magnam soluta ex dignissimos earum at natus iusto unde. Velit delectus perferendis magni enim quaerat accusantium pariatur quam harum praesentium accusamus consequuntur nihil, sequi eum, doloribus deserunt esse eaque recusandae tempora rerum sint sapiente et veritatis odio alias. Saepe dolore, a rerum repellendus at rem accusamus.</p>
+        <p>Dolorem iure ipsam eius fugiat! Ad ipsa maxime fugiat consequatur reiciendis recusandae excepturi debitis perspiciatis voluptate sapiente voluptatum, culpa saepe molestias id corrupti tenetur, numquam consectetur laborum quaerat cupiditate quibusdam dolorem nihil. Dolor officia ut architecto quidem repellendus asperiores exercitationem velit fugit laboriosam, saepe voluptatem beatae sapiente, earum iure aliquid.</p>
+        <p>In optio alias commodi vel harum asperiores tenetur odit cupiditate, illo, cumque, minus eos. Iure odio saepe quia perspiciatis maiores? Harum nobis in quas quasi, voluptatem cumque ipsa omnis laboriosam quos optio architecto adipisci fugiat quis! Veritatis dolorum dignissimos aliquid voluptate consequatur, perferendis, ut qui aspernatur deserunt officia, quisquam incidunt!</p>
+        <section class="cardFloat">
+          <div class="imgLeft m-0"></div>
+            <div class="infoRight m-0">
+              <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam optio vero minima, ullam expedita cum iure? Tempora ipsam, rem facere iste ea aut eos nemo.
+                  </p>
+                  <p class="price">
+                    20.55$
+                  </p>
+                  <a href="#" class="btn btn-dark">Подробнее</a>
+          </div>
+        </section>
+        <p>Nesciunt molestiae adipisci reprehenderit perferendis quod porro delectus, tempora nemo? A distinctio iusto exercitationem ullam atque vero nihil voluptatibus facere deserunt, quidem harum beatae dolor. Animi maiores, quia eveniet nulla harum odio, molestiae ut molestias at, fuga repellat accusamus pariatur vel numquam iure officiis sed. Ut totam assumenda cupiditate quasi!</p>
+        <p>Ipsum eveniet magni quas ad asperiores ea officia hic, molestias laborum? Aliquam sint aspernatur neque molestias adipisci distinctio quidem quod veniam error numquam vitae, nihil at. Assumenda eius harum doloribus, similique, aut atque esse nulla, rerum earum aspernatur iusto optio porro aperiam corrupti vero saepe fugiat. Dolorem, quo cum! Culpa.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
